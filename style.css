@@ -149,6 +149,7 @@ header {
   background-image: url("assets/disduk.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .bg::before {
