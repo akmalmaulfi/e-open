@@ -487,6 +487,10 @@ footer div svg {
     font-size: 1.5rem;
   }
 
+  .service-box a h3 {
+    font-size: 14px;
+  }
+
   footer {
     height: 100px;
   }
