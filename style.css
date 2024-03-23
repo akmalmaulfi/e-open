@@ -480,6 +480,7 @@ footer div svg {
 
   .container .services-wrapper .service-box {
     width: 40%;
+    padding: 10px;
   }
 
   #pelayanan .container .title-pelayanan h3 {
