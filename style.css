@@ -6,6 +6,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
+  scroll-behavior: smooth;
 }
 
 li {
@@ -188,6 +189,10 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+#hero-section div img {
+  text-align: center;
 }
 
 #hero-section a {
