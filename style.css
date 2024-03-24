@@ -198,7 +198,6 @@ header {
 
 #hero-section div img {
   text-align: center;
-  height: 150px;
 }
 
 #hero-section a {
@@ -465,7 +464,7 @@ footer div svg {
 
   #hero-section div img {
     width: 250px;
-    height: 150px;
+    height: 180px;
   }
 
   #about .container .box-1 {
