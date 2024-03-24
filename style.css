@@ -475,12 +475,14 @@ footer div svg {
   #about .container .box-1 {
     width: 100%;
     /* display: none; */
+    margin-top: 1.5rem;
   }
 
   #about .container .box-1 img {
     /* filter: grayscale(1); */
     width: 180px;
-    height: 150px;
+    height: 100px;
+    margin-bottom: 1.5rem;
   }
 
   #about .container {
