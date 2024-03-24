@@ -464,7 +464,8 @@ footer div svg {
 
   #hero-section div img {
     width: 250px;
-    height: 180px;
+    height: 165px;
+    margin-bottom: 1.5rem;
   }
 
   #about .container .box-1 {
