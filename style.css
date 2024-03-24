@@ -467,6 +467,10 @@ footer div svg {
     height: 250px;
   }
 
+  .hero-box img {
+    height: 200px;
+  }
+
   #about .container .box-1 {
     width: 100%;
     /* display: none; */
