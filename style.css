@@ -183,12 +183,17 @@ header {
   position: relative;
 }
 
-#hero-section div {
+#hero-section .hero-box {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.hero-btn {
+  display: flex;
+  gap: 1rem;
 }
 
 #hero-section div img {
