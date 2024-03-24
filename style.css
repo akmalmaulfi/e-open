@@ -120,7 +120,7 @@ header {
 }
 
 .dropdown-menu.open {
-  height: 200px;
+  height: 140px;
 }
 
 .dropdown-menu li {
@@ -227,6 +227,7 @@ header {
   width: 100%;
   border-bottom: 3px dotted #eee;
   overflow: hidden;
+  position: relative;
 }
 
 #about .container {
@@ -326,7 +327,7 @@ header {
   background: #1bcaff;
 }
 .services-wrapper .service-box:nth-child(3)::before {
-  background: red;
+  background: orange;
 }
 .services-wrapper .service-box:nth-child(4)::before {
   background: blue;
@@ -374,7 +375,7 @@ header {
   color: #1bcaff;
 }
 .service-box:nth-child(3) a div i {
-  color: red;
+  color: orange;
 }
 .service-box:nth-child(4) a div i {
   color: blue;
@@ -467,13 +468,21 @@ footer div svg {
   }
 
   #about .container .box-1 {
-    display: none;
+    width: 100%;
+    /* display: none; */
+  }
+
+  #about .container .box-1 img {
+    /* filter: grayscale(1); */
+    width: 200px;
+    height: 200px;
   }
 
   #about .container {
     margin: 0;
-    margin-top: 3rem;
+    /* margin-top: 1rem; */
     padding-bottom: 3rem;
+    flex-wrap: wrap;
   }
 
   #about .container .box-2 {
@@ -483,6 +492,11 @@ footer div svg {
 
   .about-title {
     font-size: 1.5rem;
+    display: none;
+  }
+
+  .about-desc {
+    text-align: center;
   }
 
   #pelayanan .container {
@@ -490,7 +504,7 @@ footer div svg {
   }
 
   .container .services-wrapper .service-box {
-    width: 40%;
+    width: 100%;
     padding: 10px;
   }
 

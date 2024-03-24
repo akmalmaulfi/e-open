@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>e-Open</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container-hero">
+      <div class="bg">
+        <div id="particles-js"></div>
+        <header>
+          <div class="navbar">
+            <div class="logo">
+              <a href="">
+                <img src="assets/eopen.svg" alt="E-open" />
+              </a>
+            </div>
+            <ul class="links">
+              <li><a href="#">Beranda</a></li>
+              <li><a href="#pelayanan">Pelayanan</a></li>
+              <li><a href="#about">Tentang</a></li>
+            </ul>
+            <!-- <ul class="links2">
+              <li>
+                <a href="#" class="action_btn"
+                  ><i class="fa-solid fa-right-to-bracket"></i
+                ></a>
+              </li>
+              <li><a href="#" class="action_btn btn-daftar">Daftar</a></li>
+            </ul> -->
+            <!-- <div class="toggle-btn"><i class="fa-solid fa-bars"></i></div> -->
+          </div>
+
+          <div class="dropdown-menu">
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#pelayanan">Pelayanan</a></li>
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#" class="action_btn">Login</a></li>
+          </div>
+        </header>
+
+        <section id="hero-section">
+          <div class="hero-box" data-aos="fade-up" data-aos-duration="1000">
+            <img src="assets/eopen.svg" alt="e-open" width="300" height="300" />
+            <div class="hero-btn">
+              <a href="index.html">Logout</a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <section id="pelayanan">
+      <div class="container">
+        <div
+          class="title-pelayanan"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+        >
+          <h3>Pelayanan</h3>
+        </div>
+        <div
+          class="services-wrapper"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+        >
+          <div class="service-box">
+            <a href="">
+              <div>
+                <i class="fa-regular fa-address-card"></i>
+              </div>
+              <h3>KTP</h3>
+            </a>
+          </div>
+          <div class="service-box">
+            <a href="">
+              <div>
+                <i class="fa-solid fa-certificate"></i>
+              </div>
+              <h3>Akta Kelahiran</h3>
+            </a>
+          </div>
+          <div class="service-box">
+            <a href="">
+              <div>
+                <i class="fa-solid fa-print"></i>
+              </div>
+              <h3>Akta Kematian</h3>
+            </a>
+          </div>
+          <div class="service-box">
+            <a href="">
+              <div>
+                <i class="fa-solid fa-child"></i>
+              </div>
+              <h3>KIA</h3>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>© Copyright 2024 Disdukcapil Kota Bekasi. All Rights Reserved</p>
+      <div>
+        <svg
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          width="100%"
+          height="100%"
+          viewBox="0 0 1600 900"
+          preserveAspectRatio="xMidYMax slice"
+        >
+          <defs>
+            <linearGradient id="bg">
+              <stop
+                offset="0%"
+                style="stop-color: rgba(130, 158, 249, 0.06)"
+              ></stop>
+              <stop
+                offset="50%"
+                style="stop-color: rgba(76, 190, 255, 0.6)"
+              ></stop>
+              <stop
+                offset="100%"
+                style="stop-color: rgba(115, 209, 72, 0.2)"
+              ></stop>
+            </linearGradient>
+            <path
+              id="wave"
+              fill="url(#bg)"
+              d="M-363.852,502.589c0,0,236.988-41.997,505.475,0
+      s371.981,38.998,575.971,0s293.985-39.278,505.474,5.859s493.475,48.368,716.963-4.995v560.106H-363.852V502.589z"
+            />
+          </defs>
+          <g>
+            <use xlink:href="#wave" opacity=".3">
+              <animateTransform
+                attributeName="transform"
+                attributeType="XML"
+                type="translate"
+                dur="10s"
+                calcMode="spline"
+                values="270 230; -334 180; 270 230"
+                keyTimes="0; .5; 1"
+                keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+                repeatCount="indefinite"
+              />
+            </use>
+            <use xlink:href="#wave" opacity=".6">
+              <animateTransform
+                attributeName="transform"
+                attributeType="XML"
+                type="translate"
+                dur="8s"
+                calcMode="spline"
+                values="-270 230;243 220;-270 230"
+                keyTimes="0; .6; 1"
+                keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+                repeatCount="indefinite"
+              />
+            </use>
+            <use xlink:href="#wave" opacty=".9">
+              <animateTransform
+                attributeName="transform"
+                attributeType="XML"
+                type="translate"
+                dur="6s"
+                calcMode="spline"
+                values="0 230;-140 200;0 230"
+                keyTimes="0; .4; 1"
+                keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+                repeatCount="indefinite"
+              />
+            </use>
+          </g>
+        </svg>
+      </div>
+    </footer>
+
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+      });
+      const toggleBtn = document.querySelector(".toggle-btn");
+      const toggleBtnIcon = document.querySelector(".toggle-btn i");
+      const dropdownMenu = document.querySelector(".dropdown-menu");
+
+      toggleBtn.onclick = function () {
+        dropdownMenu.classList.toggle("open");
+        const isOpen = dropdownMenu.classList.contains("open");
+
+        toggleBtnIcon.classList = isOpen
+          ? "fa-solid fa-xmark"
+          : "fa-solid fa-bars";
+      };
+    </script>
+  </body>
+</html>
